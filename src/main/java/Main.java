@@ -26,9 +26,9 @@ public class Main {
     staticFileLocation("/public");
 
     get("/hello", (req, res) -> {
-      RelativisticModel.select();
-      Amount<Mass> m = Amount.valueOf("12 GeV").to(KILOGRAM);
-      return "E=mc^2: 12 GeV = " + m.toString();            
+      //RelativisticModel.select();
+      //Amount<Mass> m = Amount.valueOf("12 GeV").to(KILOGRAM);
+      return "Sancho es el puto amo";            
     });
 
     get("/", (request, response) -> {
